@@ -16,7 +16,7 @@ export default class Game extends InitializableModel {
 
     static initialize(sequelize: Sequelize) {
         Game.init({
-            id: DataTypes.INTEGER,
+            id: { type: DataTypes.INTEGER, primaryKey: true },
             name: DataTypes.STRING,
             phase_length_minutes: DataTypes.INTEGER,
             public: DataTypes.BOOLEAN,

@@ -11,6 +11,7 @@
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
+        "resolveJsonModule": true,
         "incremental": true,
         "sourceMap": true,
         "target": "es2017",
@@ -19,7 +20,8 @@
         "esModuleInterop": true
     },
     "include": [
-        "src/**/*"
+        "src/**/*",
+        "src/**/*.json"
     ],
     "exclude": [
         "node_modules",

@@ -1,4 +1,4 @@
-{
+export default {
   "development": {
     "username": "root",
     "password": "1247133182",
