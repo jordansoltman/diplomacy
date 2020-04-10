@@ -1,6 +1,7 @@
-import { Sequelize, DataTypes, Model } from 'sequelize';
+import { Sequelize, DataTypes } from 'sequelize';
+import { InitializableModel } from '../InitializeableModel';
 
-export class Game extends Model {
+export default class Game extends InitializableModel {
     public id!: number;
     public name!: string;
     public phase_length_minutes!: number;
@@ -10,23 +11,22 @@ export class Game extends Model {
     public game_messaging!: boolean;
     public win_supply_centers!: number | null;
     public max_turns!: number | null;
-}
 
-export function init(sequelize: Sequelize) {
-    Game.init({
-        id: DataTypes.INTEGER,
-        name: DataTypes.STRING,
-        phase_length_minutes: DataTypes.INTEGER,
-        public: DataTypes.BOOLEAN,
-        invite_code: DataTypes.STRING,
-        no_processing_days: DataTypes.TINYINT,
-        variant: DataTypes.STRING,
-        game_messaging: DataTypes.STRING,
-        win_supply_centers: DataTypes.INTEGER,
-        max_turns: DataTypes.INTEGER
-    }, { sequelize });
-}
+    static associate() { }
 
-export function associate(sequelize: Sequelize) {
-    
+    static initialize(sequelize: Sequelize) {
+        Game.init({
+            id: DataTypes.INTEGER,
+            name: DataTypes.STRING,
+            phase_length_minutes: DataTypes.INTEGER,
+            public: DataTypes.BOOLEAN,
+            invite_code: DataTypes.STRING,
+            no_processing_days: DataTypes.TINYINT,
+            variant: DataTypes.STRING,
+            game_messaging: DataTypes.STRING,
+            win_supply_centers: DataTypes.INTEGER,
+            max_turns: DataTypes.INTEGER
+        }, { sequelize });
+    }
+
 }

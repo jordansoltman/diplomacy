@@ -1,54 +1,52 @@
-'use strict';
-module.exports = {
-  up: (queryInterface, Sequelize) => {
+import { QueryInterface, DataTypes } from 'sequelize';
+
+export default {
+  up: (queryInterface: QueryInterface ) => {
     return queryInterface.createTable('games', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
-      },
-      id: {
-        type: Sequelize.INTEGER
+        type: DataTypes.INTEGER
       },
       name: {
-        type: Sequelize.STRING
+        type: DataTypes.STRING
       },
       phase_length_minutes: {
-        type: Sequelize.INTEGER
+        type: DataTypes.INTEGER
       },
       public: {
-        type: Sequelize.BOOLEAN
+        type: DataTypes.BOOLEAN
       },
       invite_code: {
-        type: Sequelize.STRING
+        type: DataTypes.STRING
       },
       no_processing_days: {
-        type: Sequelize.TINYINT
+        type: DataTypes.TINYINT
       },
       variant: {
-        type: Sequelize.STRING
+        type: DataTypes.STRING
       },
       game_messaging: {
-        type: Sequelize.STRING
+        type: DataTypes.STRING
       },
       win_supply_centers: {
-        type: Sequelize.INTEGER
+        type: DataTypes.INTEGER
       },
       max_turns: {
-        type: Sequelize.INTEGER
+        type: DataTypes.INTEGER
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: DataTypes.DATE
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: DataTypes.DATE
       }
     });
   },
-  down: (queryInterface, Sequelize) => {
+  down: (queryInterface: QueryInterface) => {
     return queryInterface.dropTable('games');
   }
 };
