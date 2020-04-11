@@ -1,6 +1,4 @@
 'use strict';
-import fs from 'fs';
-import path from 'path';
 import { Sequelize } from 'sequelize';
 import Game from './models/game';
 
@@ -11,12 +9,12 @@ const sequelize = new Sequelize(config.database, config.username, config.passwor
 
 const db = {
     models: {
-        game: Game,
+        game: Game
     },
     sequelize: sequelize
 };
 
-Object.values(db.models).forEach(model => {
+Object.values(db.models).forEach((model) => {
     model.associate();
     model.initialize(sequelize);
 });
