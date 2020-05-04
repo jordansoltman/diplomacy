@@ -10,10 +10,10 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit'
 import { viewReducer } from './views/reducers'
 
-const rootReducer = combineReducers({viewReducer});
+const rootReducer = combineReducers({ viewReducer });
 export type RootState  = ReturnType<typeof rootReducer>
 
-const store = configureStore({
+export default configureStore({
   reducer: {
     view: viewReducer,
 
