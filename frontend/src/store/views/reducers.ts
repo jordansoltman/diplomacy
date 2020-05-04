@@ -1,13 +1,16 @@
-import { View, ViewActionType, changeView } from "./types";
+import { View, ViewActionType, changeView } from './types';
+import { Reducer, AnyAction } from 'redux';
 
 const initialState = View.HOME;
 
-export function viewReducer(state: View = initialState, action: ViewActionType): View {
-  switch (action.type) {
-    case changeView:
-      return action.payload
-    default: {
-      return state;
+const viewReducer: Reducer<View, AnyAction> = (state: View = initialState, action: AnyAction): View => {
+    switch ((action as ViewActionType).type) {
+        case changeView:
+            return action.payload;
+        default: {
+            return state;
+        }
     }
-  }
-}
+};
+
+export default viewReducer;

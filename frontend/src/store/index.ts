@@ -7,16 +7,21 @@
 // })
 
 // export type RootState = ReturnType<typeof rootReducer>
-import { configureStore, combineReducers } from '@reduxjs/toolkit'
-import { viewReducer } from './views/reducers'
+import { configureStore, combineReducers } from '@reduxjs/toolkit';
+import authReducer from './auth/reducers';
+import { AuthState } from './auth/types';
 
-const rootReducer = combineReducers({viewReducer});
-export type RootState  = ReturnType<typeof rootReducer>
+const rootReducer = combineReducers({ authReducer });
+export type RootState = ReturnType<typeof rootReducer>;
+
+export interface ApplicationState {
+    auth: AuthState;
+}
 
 const store = configureStore({
-  reducer: {
-    view: viewReducer,
+    reducer: {
+        auth: authReducer
+    }
+});
 
-  }
-})
-
+export default store;
