@@ -4,7 +4,7 @@ import { QueryInterface, DataTypes } from 'sequelize';
 
 export default {
     up: (queryInterface: QueryInterface): Promise<void> => {
-        return queryInterface.createTable('games', {
+        return queryInterface.createTable('game', {
             id: {
                 allowNull: false,
                 autoIncrement: true,

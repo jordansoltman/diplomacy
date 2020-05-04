@@ -2,7 +2,7 @@ import { QueryInterface, DataTypes } from 'sequelize';
 
 module.exports = {
     up: (queryInterface: QueryInterface): Promise<void> => {
-        return queryInterface.createTable('variations', {
+        return queryInterface.createTable('variation', {
             id: {
                 allowNull: false,
                 autoIncrement: true,

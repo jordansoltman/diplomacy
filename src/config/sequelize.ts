@@ -5,7 +5,7 @@ export default {
         database: 'diplomacy_development',
         host: '127.0.0.1',
         dialect: 'mysql',
-        operatorsAliases: false,
+        operatorsAliases: false
     },
     test: {
         username: 'root',
@@ -13,7 +13,7 @@ export default {
         database: 'database_test',
         host: '127.0.0.1',
         dialect: 'mysql',
-        operatorsAliases: false,
+        operatorsAliases: false
     },
     production: {
         username: 'root',
@@ -21,6 +21,6 @@ export default {
         database: 'database_production',
         host: '127.0.0.1',
         dialect: 'mysql',
-        operatorsAliases: false,
-    },
+        operatorsAliases: false
+    }
 };
