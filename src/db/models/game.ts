@@ -9,10 +9,11 @@ export default class Game extends InitializableModel {
     public phase_length_minutes!: number;
     public public!: boolean;
     public invite_code!: string | null;
-    public no_processing_days!: number;
-    public game_messaging!: boolean;
     public win_supply_centers!: number | null;
-    public max_turns!: number | null;
+
+    // public max_turns!: number | null;
+    // public no_processing_days!: number;
+    // public game_messaging!: boolean;
 
     // static associate() { }
 
@@ -24,11 +25,13 @@ export default class Game extends InitializableModel {
                 phase_length_minutes: DataTypes.INTEGER,
                 public: DataTypes.BOOLEAN,
                 invite_code: DataTypes.STRING,
-                no_processing_days: DataTypes.TINYINT,
-                variant: DataTypes.STRING,
-                game_messaging: DataTypes.STRING,
-                win_supply_centers: DataTypes.INTEGER,
-                max_turns: DataTypes.INTEGER
+                win_supply_centers: DataTypes.INTEGER
+
+                // Future additions
+                // max_turns: DataTypes.INTEGER
+                // no_processing_days: DataTypes.TINYINT,
+                // variant: DataTypes.STRING,
+                // game_messaging: DataTypes.STRING,
             },
             { sequelize }
         );

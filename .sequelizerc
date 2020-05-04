@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
     // FIXME: move to a universal config folder
-  'config': path.resolve('config', 'sequelize.json'),
+  'config': path.resolve('config', 'sequelize.js'),
   'models-path': path.resolve('src', 'db', 'models'),
   'seeders-path': path.resolve('seeders'),
   'migrations-path': path.resolve('src', 'db', 'migrations')

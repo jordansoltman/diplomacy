@@ -13,12 +13,12 @@ const umzug = new Umzug({
 // FIXME: this is temporary and should be resolved using config files
 
 db.sequelize
-    .query('DROP DATABASE diplomacy_development')
+    .query('DROP DATABASE diplomacy')
     .then(() => {
-        return db.sequelize.query('CREATE DATABASE diplomacy_development;');
+        return db.sequelize.query('CREATE DATABASE diplomacy');
     })
     .then(() => {
-        return db.sequelize.query('USE diplomacy_development');
+        return db.sequelize.query('USE diplomacy');
     })
     .then(() => {
         return umzug.up();
