@@ -7,7 +7,7 @@ exports.up = function (knex: Knex): Promise<void> {
         table.integer('interval_minutes').notNullable();
         table.string('password');
         table.integer('win_condition');
-        table.integer('num_player');
+        table.integer('num_players');
         table.dateTime('updated_at');
         table.dateTime('created_at');
     });

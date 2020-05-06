@@ -1,39 +1,23 @@
 /* eslint-disable @typescript-eslint/camelcase */
+import { Model, OQB, DataType } from 'oqb';
 
-import { Sequelize, DataTypes } from 'sequelize';
-import { InitializableModel } from '../InitializeableModel';
+export class Game extends Model {
+    // eslint-disable-next-line @typescript-eslint/no-empty-function
+    public static assocate(): void {}
+}
 
-export default class Game extends InitializableModel {
-    public id!: number;
-    public name!: string;
-    public phase_length_minutes!: number;
-    public public!: boolean;
-    public invite_code!: string | null;
-    public win_supply_centers!: number | null;
-
-    // public max_turns!: number | null;
-    // public no_processing_days!: number;
-    // public game_messaging!: boolean;
-
-    // static associate() { }
-
-    static initialize(sequelize: Sequelize): void {
-        Game.init(
-            {
-                id: { type: DataTypes.INTEGER, primaryKey: true },
-                name: DataTypes.STRING,
-                phase_length_minutes: DataTypes.INTEGER,
-                public: DataTypes.BOOLEAN,
-                invite_code: DataTypes.STRING,
-                win_supply_centers: DataTypes.INTEGER
-
-                // Future additions
-                // max_turns: DataTypes.INTEGER
-                // no_processing_days: DataTypes.TINYINT,
-                // variant: DataTypes.STRING,
-                // game_messaging: DataTypes.STRING,
-            },
-            { sequelize }
-        );
-    }
+export function init(oqb: OQB): void {
+    Game.init(
+        oqb,
+        'game',
+        {
+            id: { primary: true, type: DataType.INTEGER },
+            name: { type: DataType.STRING },
+            interval_minutes: { type: DataType.INTEGER },
+            password: { type: DataType.STRING },
+            win_condition: { type: DataType.INTEGER },
+            num_players: { type: DataType.INTEGER }
+        },
+        { timeStamps: true }
+    );
 }
