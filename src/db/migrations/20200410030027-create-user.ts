@@ -1,24 +1,15 @@
-import { QueryInterface, DataTypes } from 'sequelize';
+import Knex from 'knex';
 
-export default {
-    up: (queryInterface: QueryInterface): Promise<void> => {
-        return queryInterface.createTable('user', {
-            username: {
-                primaryKey: true,
-                type: DataTypes.STRING
-            },
-            email: { type: DataTypes.STRING },
-            createdAt: {
-                allowNull: false,
-                type: DataTypes.DATE
-            },
-            updatedAt: {
-                allowNull: false,
-                type: DataTypes.DATE
-            }
-        });
-    },
-    down: (queryInterface: QueryInterface): Promise<void> => {
-        return queryInterface.dropTable('user');
-    }
+exports.up = function (knex: Knex): Promise<void> {
+    return knex.schema.createTable('user', (table) => {
+        table.string('username').notNullable().primary();
+        table.string('email').notNullable();
+        table.string('password');
+        table.dateTime('created_at');
+        table.dateTime('updated_at');
+    });
+};
+
+exports.down = function (knex: Knex): Promise<void> {
+    return knex.schema.dropTable('user');
 };

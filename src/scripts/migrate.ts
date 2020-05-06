@@ -1,28 +1,28 @@
-import Umzug from 'umzug';
-import db from '../db';
+import knex from 'knex';
+import path from 'path';
+import config from '../config';
 
-const umzug = new Umzug({
-    migrations: {
-        path: './dist/db/migrations',
-        params: [db.sequelize.getQueryInterface()]
-    },
-    storage: 'sequelize',
-    storageOptions: { sequelize: db.sequelize }
-});
-
-// FIXME: this is temporary and should be resolved using config files
-
-db.sequelize
-    .query('DROP DATABASE diplomacy')
-    .then(() => {
-        return db.sequelize.query('CREATE DATABASE diplomacy');
-    })
-    .then(() => {
-        return db.sequelize.query('USE diplomacy');
-    })
-    .then(() => {
-        return umzug.up();
-    })
-    .then(() => {
-        console.log('Migration complete!');
+export async function migrate(): Promise<void> {
+    const dbConnection = knex({
+        client: 'mysql',
+        debug: true, // FIXME: should be based on configuration
+        connection: {
+            host: config.database.host,
+            user: config.database.username,
+            password: config.database.password,
+            database: config.database.database
+        },
+        migrations: {
+            tableName: 'knex_migrations',
+            directory: path.resolve(__dirname, '../db/migrations')
+        }
     });
+
+    // FIXME: move this drop create outside of this
+    await dbConnection.raw(`DROP DATABASE IF EXISTS ${config.database.database};`);
+    await dbConnection.raw(`CREATE DATABASE ${config.database.database};`);
+    await dbConnection.raw(`USE ${config.database.database};`);
+    await dbConnection.migrate.latest();
+}
+
+migrate();
