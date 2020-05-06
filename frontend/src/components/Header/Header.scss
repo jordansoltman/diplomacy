@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 60px;
+    width: 100vw;
+    // border: thin #3164c2 solid;
+    color: white;
+    background-color: #3164c2;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-inline-start: 10px;
+}

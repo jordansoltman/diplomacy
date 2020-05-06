@@ -1,28 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import React, { ReactElement } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './app.scss';
 
-import Home from '../Home/Home';
-import Diplomacy from '../Diplomacy/Diplomacy';
+import Home from '../Pages/Home/Home';
+import Diplomacy from '../Pages/Diplomacy/Diplomacy';
+import Auth from '../Auth/Auth';
+import Games from '../Pages/Games/Games';
+import Login from '../Pages/Login/Login';
+import Header from '../Header/Header';
+import Container from '../Container/Container';
+import Account from '../Pages/Account/Account';
 
-
-function App() {
+function App(): ReactElement {
     return (
         <Router>
-            <Auth>
-                <Switch>
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
-                    <Route exact path="/diplomacy">
-                        <Diplomacy />
-                    </Route>
-                    <Route exact path="/publicgames">
-                        <Games />
-                    </Route>
-                </Switch>
-            </Auth>
+            <Header />
+            <Switch>
+                <Route path="/login">
+                    <Container>
+                        <Login />
+                    </Container>
+                </Route>
+                <Auth redirectURL="/login">
+                    <Container>
+                        <Route exact path="/">
+                            <Home />
+                        </Route>
+                        <Route exact path="/diplomacy">
+                            <Diplomacy />
+                        </Route>
+                        <Route exact path="/publicgames">
+                            <Games />
+                        </Route>
+                        <Route exact path="/account">
+                            <Account />
+                        </Route>
+                    </Container>
+                </Auth>
+            </Switch>
         </Router>
     );
 }
