@@ -1,10 +1,29 @@
-import { User, LOG_IN } from './types';
+import { User, LOG_IN, AuthActionType, LOG_OUT } from './types';
 
-export function logIn(user: User) {
+/**
+ *
+ * Dispatches a log in action to the store.
+ *
+ * @param user type User {username: string, token: string}
+ * @returns @AuthActionType
+ */
+
+export function logIn(user: User): AuthActionType {
     return {
         type: LOG_IN,
         payload: {
-            ...user
+            loggedIn: true,
+            user: user
+        }
+    };
+}
+
+export function logOut(): AuthActionType {
+    return {
+        type: LOG_OUT,
+        payload: {
+            loggedIn: false,
+            user: { username: null, token: null }
         }
     };
 }
