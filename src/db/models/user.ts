@@ -1,21 +1,20 @@
-import { Sequelize, DataTypes } from 'sequelize';
-import { InitializableModel } from '../InitializeableModel';
+import { OQB, Model, DataType } from 'oqb';
 
-export default class User extends InitializableModel {
-    public username!: string;
-    public email!: string;
-    public password!: string;
+class User extends Model {
+    // eslint-disable-next-line @typescript-eslint/no-empty-function
+    public static associate(): void {}
+}
 
-    // static associate() { }
+export default function init(oqb: OQB): void {
+    User.init(
+        oqb,
+        'User',
+        {
+            username: { type: DataType.STRING, primary: true, required: true },
+            password: { type: DataType.STRING, required: true },
+            email: { type: DataType.STRING, required: true }
+        },
 
-    static initialize(sequelize: Sequelize): void {
-        User.init(
-            {
-                username: { type: DataTypes.STRING, primaryKey: true },
-                email: DataTypes.STRING,
-                password: DataTypes.STRING
-            },
-            { sequelize }
-        );
-    }
+        { timeStamps: true }
+    );
 }
