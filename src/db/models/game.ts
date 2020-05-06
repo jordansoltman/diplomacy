@@ -6,7 +6,7 @@ export class Game extends Model {
     public static assocate(): void {}
 }
 
-export function init(oqb: OQB): void {
+export default function init(oqb: OQB): void {
     Game.init(
         oqb,
         'game',
