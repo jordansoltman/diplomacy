@@ -1,0 +1,61 @@
+.Home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-list {
+    width: 100%;
+    list-style-type: none;
+    padding-inline-start: unset;
+    .game-item {
+        height: 70px;
+        border: thin blue solid;
+        border-radius: 4px;
+        display: flex;
+        margin-bottom: 10px;
+        overflow: hidden;
+
+        .own-turn-status {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 100%;
+            width: 70px;
+            background-color: lightgray;
+            border-right: thin blue solid;
+        }
+
+        .game-data {
+            display: flex;
+            justify-content: space-between;
+            width: calc(100% - 50px);
+            overflow: hidden;
+
+            .left-detail {
+                width: 70%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .detail-title {
+                    p {
+                        margin: 0px;
+                        margin-block-end: 0px;
+                        margin-block-start: 0px;
+                    }
+                }
+
+                img {
+                    height: 10px;
+                    margin-inline-start: 3px;
+                }
+            }
+
+            .right-detail {
+                width: 30%;
+            }
+        }
+    }
+}
