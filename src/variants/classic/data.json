@@ -1,897 +1,2618 @@
 [
-    { first: "Edinburgh", second: "Clyde", fleets: true, armies: true
-    },
-    { first: "Liverpool", second: "Clyde", fleets: true, armies: true
-    },
-    { first: "Norwegian Sea", second: "Clyde", fleets: true, armies: false
-    },
-    { first: "North Atlantic Ocean", second: "Clyde", fleets: true, armies: false
-    },
-    { first: "Clyde", second: "Edinburgh", fleets: true, armies: true
-    },
-    { first: "Liverpool", second: "Edinburgh", fleets: false, armies: true
-    },
-    { first: "Yorkshire", second: "Edinburgh", fleets: true, armies: true
-    },
-    { first: "Norwegian Sea", second: "Edinburgh", fleets: true, armies: false
-    },
-    { first: "North Sea", second: "Edinburgh", fleets: true, armies: false
-    },
-    { first: "Clyde", second: "Liverpool", fleets: true, armies: true
-    },
-    { first: "Edinburgh", second: "Liverpool", fleets: false, armies: true
-    },
-    { first: "Yorkshire", second: "Liverpool", fleets: false, armies: true
-    },
-    { first: "Wales", second: "Liverpool", fleets: true, armies: true
-    },
-    { first: "North Atlantic Ocean", second: "Liverpool", fleets: true, armies: false
-    },
-    { first: "Irish Sea", second: "Liverpool", fleets: true, armies: false
-    },
-    { first: "Edinburgh", second: "Yorkshire", fleets: true, armies: true
-    },
-    { first: "Liverpool", second: "Yorkshire", fleets: false, armies: true
-    },
-    { first: "Wales", second: "Yorkshire", fleets: false, armies: true
-    },
-    { first: "London", second: "Yorkshire", fleets: true, armies: true
-    },
-    { first: "North Sea", second: "Yorkshire", fleets: true, armies: false
-    },
-    { first: "Liverpool", second: "Wales", fleets: true, armies: true
-    },
-    { first: "Yorkshire", second: "Wales", fleets: false, armies: true
-    },
-    { first: "London", second: "Wales", fleets: true, armies: true
-    },
-    { first: "Irish Sea", second: "Wales", fleets: true, armies: false
-    },
-    { first: "English Channel", second: "Wales", fleets: true, armies: false
-    },
-    { first: "Yorkshire", second: "London", fleets: true, armies: true
-    },
-    { first: "Wales", second: "London", fleets: true, armies: true
-    },
-    { first: "North Sea", second: "London", fleets: true, armies: false
-    },
-    { first: "English Channel", second: "London", fleets: true, armies: false
-    },
-    { first: "Spain", second: "Portugal", fleets: false, armies: true
-    },
-    { first: "Mid-Atlantic Ocean", second: "Portugal", fleets: true, armies: false
-    },
-    { first: "Spain (North Coast)",
-        "Portugal", fleets: true, armies: false
-    },
-    { first: "Spain (South Coast)",
-        "Portugal", fleets: true, armies: false
-    },
-    { first: "Portugal", second: "Spain", fleets: false, armies: true
-    },
-    { first: "Marseilles", second: "Spain", fleets: false, armies: true
-    },
-    { first: "Gascony", second: "Spain", fleets: false, armies: true
-    },
-    { first: "Tunis", second: "North Africa", fleets: true, armies: true
-    },
-    { first: "Mid-Atlantic Ocean", second: "North Africa", fleets: true, armies: false
-    },
-    { first: "Western Mediterranean", second: "North Africa", fleets: true, armies: false
-    },
-    { first: "North Africa", second: "Tunis", fleets: true, armies: true
-    },
-    { first: "Western Mediterranean", second: "Tunis", fleets: true, armies: false
-    },
-    { first: "Tyrrhenian Sea", second: "Tunis", fleets: true, armies: false
-    },
-    { first: "Ionian Sea", second: "Tunis", fleets: true, armies: false
-    },
-    { first: "Rome", second: "Naples", fleets: true, armies: true
-    },
-    { first: "Apulia", second: "Naples", fleets: true, armies: true
-    },
-    { first: "Tyrrhenian Sea", second: "Naples", fleets: true, armies: false
-    },
-    { first: "Ionian Sea", second: "Naples", fleets: true, armies: false
-    },
-    { first: "Naples", second: "Rome", fleets: true, armies: true
-    },
-    { first: "Tuscany", second: "Rome", fleets: true, armies: true
-    },
-    { first: "Venice", second: "Rome", fleets: false, armies: true
-    },
-    { first: "Apulia", second: "Rome", fleets: false, armies: true
-    },
-    { first: "Tyrrhenian Sea", second: "Rome", fleets: true, armies: false
-    },
-    { first: "Rome", second: "Tuscany", fleets: true, armies: true
-    },
-    { first: "Piedmont", second: "Tuscany", fleets: true, armies: true
-    },
-    { first: "Venice", second: "Tuscany", fleets: false, armies: true
-    },
-    { first: "Gulf of Lyons", second: "Tuscany", fleets: true, armies: false
-    },
-    { first: "Tyrrhenian Sea", second: "Tuscany", fleets: true, armies: false
-    },
-    { first: "Tuscany", second: "Piedmont", fleets: true, armies: true
-    },
-    { first: "Venice", second: "Piedmont", fleets: false, armies: true
-    },
-    { first: "Marseilles", second: "Piedmont", fleets: true, armies: true
-    },
-    { first: "Gulf of Lyons", second: "Piedmont", fleets: true, armies: false
-    },
-    { first: "Tyrolia", second: "Piedmont", fleets: false, armies: true
-    },
-    { first: "Rome", second: "Venice", fleets: false, armies: true
-    },
-    { first: "Tuscany", second: "Venice", fleets: false, armies: true
-    },
-    { first: "Piedmont", second: "Venice", fleets: false, armies: true
-    },
-    { first: "Apulia", second: "Venice", fleets: true, armies: true
-    },
-    { first: "Adriatic Sea", second: "Venice", fleets: true, armies: false
-    },
-    { first: "Tyrolia", second: "Venice", fleets: false, armies: true
-    },
-    { first: "Trieste", second: "Venice", fleets: true, armies: true
-    },
-    { first: "Naples", second: "Apulia", fleets: true, armies: true
-    },
-    { first: "Rome", second: "Apulia", fleets: false, armies: true
-    },
-    { first: "Venice", second: "Apulia", fleets: true, armies: true
-    },
-    { first: "Ionian Sea", second: "Apulia", fleets: true, armies: false
-    },
-    { first: "Adriatic Sea", second: "Apulia", fleets: true, armies: false
-    },
-    { first: "Albania", second: "Greece", fleets: true, armies: true
-    },
-    { first: "Serbia", second: "Greece", fleets: false, armies: true
-    },
-    { first: "Bulgaria", second: "Greece", fleets: false, armies: true
-    },
-    { first: "Ionian Sea", second: "Greece", fleets: true, armies: false
-    },
-    { first: "Aegean Sea", second: "Greece", fleets: true, armies: false
-    },
-    { first: "Bulgaria (South Coast)",
-        "Greece", fleets: true, armies: false
-    },
-    { first: "Greece", second: "Albania", fleets: true, armies: true
-    },
-    { first: "Serbia", second: "Albania", fleets: false, armies: true
-    },
-    { first: "Ionian Sea", second: "Albania", fleets: true, armies: false
-    },
-    { first: "Adriatic Sea", second: "Albania", fleets: true, armies: false
-    },
-    { first: "Trieste", second: "Albania", fleets: true, armies: true
-    },
-    { first: "Greece", second: "Serbia", fleets: false, armies: true
-    },
-    { first: "Albania", second: "Serbia", fleets: false, armies: true
-    },
-    { first: "Bulgaria", second: "Serbia", fleets: false, armies: true
-    },
-    { first: "Rumania", second: "Serbia", fleets: false, armies: true
-    },
-    { first: "Trieste", second: "Serbia", fleets: false, armies: true
-    },
-    { first: "Budapest", second: "Serbia", fleets: false, armies: true
-    },
-    { first: "Greece", second: "Bulgaria", fleets: false, armies: true
-    },
-    { first: "Serbia", second: "Bulgaria", fleets: false, armies: true
-    },
-    { first: "Rumania", second: "Bulgaria", fleets: false, armies: true
-    },
-    { first: "Constantinople", second: "Bulgaria", fleets: false, armies: true
-    },
-    { first: "Serbia", second: "Rumania", fleets: false, armies: true
-    },
-    { first: "Bulgaria", second: "Rumania", fleets: false, armies: true
-    },
-    { first: "Sevastopol", second: "Rumania", fleets: true, armies: true
-    },
-    { first: "Ukraine", second: "Rumania", fleets: false, armies: true
-    },
-    { first: "Black Sea", second: "Rumania", fleets: true, armies: false
-    },
-    { first: "Budapest", second: "Rumania", fleets: false, armies: true
-    },
-    { first: "Galicia", second: "Rumania", fleets: false, armies: true
-    },
-    { first: "Bulgaria (North Coast)",
-        "Rumania", fleets: true, armies: false
-    },
-    { first: "Bulgaria", second: "Constantinople", fleets: false, armies: true
-    },
-    { first: "Smyrna", second: "Constantinople", fleets: true, armies: true
-    },
-    { first: "Ankara", second: "Constantinople", fleets: true, armies: true
-    },
-    { first: "Aegean Sea", second: "Constantinople", fleets: true, armies: false
-    },
-    { first: "Black Sea", second: "Constantinople", fleets: true, armies: false
-    },
-    { first: "Bulgaria (North Coast)",
-        "Constantinople", fleets: true, armies: false
-    },
-    { first: "Bulgaria (South Coast)",
-        "Constantinople", fleets: true, armies: false
-    },
-    { first: "Constantinople", second: "Smyrna", fleets: true, armies: true
-    },
-    { first: "Ankara", second: "Smyrna", fleets: false, armies: true
-    },
-    { first: "Armenia", second: "Smyrna", fleets: false, armies: true
-    },
-    { first: "Syria", second: "Smyrna", fleets: true, armies: true
-    },
-    { first: "Aegean Sea", second: "Smyrna", fleets: true, armies: false
-    },
-    { first: "Eastern Mediterranean", second: "Smyrna", fleets: true, armies: false
-    },
-    { first: "Constantinople", second: "Ankara", fleets: true, armies: true
-    },
-    { first: "Smyrna", second: "Ankara", fleets: false, armies: true
-    },
-    { first: "Armenia", second: "Ankara", fleets: true, armies: true
-    },
-    { first: "Black Sea", second: "Ankara", fleets: true, armies: false
-    },
-    { first: "Smyrna", second: "Armenia", fleets: false, armies: true
-    },
-    { first: "Ankara", second: "Armenia", fleets: true, armies: true
-    },
-    { first: "Syria", second: "Armenia", fleets: false, armies: true
-    },
-    { first: "Sevastopol", second: "Armenia", fleets: true, armies: true
-    },
-    { first: "Black Sea", second: "Armenia", fleets: true, armies: false
-    },
-    { first: "Smyrna", second: "Syria", fleets: true, armies: true
-    },
-    { first: "Armenia", second: "Syria", fleets: false, armies: true
-    },
-    { first: "Eastern Mediterranean", second: "Syria", fleets: true, armies: false
-    },
-    { first: "Rumania", second: "Sevastopol", fleets: true, armies: true
-    },
-    { first: "Armenia", second: "Sevastopol", fleets: true, armies: true
-    },
-    { first: "Ukraine", second: "Sevastopol", fleets: false, armies: true
-    },
-    { first: "Moscow", second: "Sevastopol", fleets: false, armies: true
-    },
-    { first: "Black Sea", second: "Sevastopol", fleets: true, armies: false
-    },
-    { first: "Rumania", second: "Ukraine", fleets: false, armies: true
-    },
-    { first: "Sevastopol", second: "Ukraine", fleets: false, armies: true
-    },
-    { first: "Warsaw", second: "Ukraine", fleets: false, armies: true
-    },
-    { first: "Moscow", second: "Ukraine", fleets: false, armies: true
-    },
-    { first: "Galicia", second: "Ukraine", fleets: false, armies: true
-    },
-    { first: "Ukraine", second: "Warsaw", fleets: false, armies: true
-    },
-    { first: "Livonia", second: "Warsaw", fleets: false, armies: true
-    },
-    { first: "Moscow", second: "Warsaw", fleets: false, armies: true
-    },
-    { first: "Prussia", second: "Warsaw", fleets: false, armies: true
-    },
-    { first: "Silesia", second: "Warsaw", fleets: false, armies: true
-    },
-    { first: "Galicia", second: "Warsaw", fleets: false, armies: true
-    },
-    { first: "Warsaw", second: "Livonia", fleets: false, armies: true
-    },
-    { first: "Moscow", second: "Livonia", fleets: false, armies: true
-    },
-    { first: "St. Petersburg",
-        "Livonia", fleets: false, armies: true
-    },
-    { first: "Prussia", second: "Livonia", fleets: true, armies: true
-    },
-    { first: "Baltic Sea", second: "Livonia", fleets: true, armies: false
-    },
-    { first: "Gulf of Bothnia", second: "Livonia", fleets: true, armies: false
-    },
-    { first: "St. Petersburg (South Coast)",
-        "Livonia", fleets: true, armies: false
-    },
-    { first: "Sevastopol", second: "Moscow", fleets: false, armies: true
-    },
-    { first: "Ukraine", second: "Moscow", fleets: false, armies: true
-    },
-    { first: "Warsaw", second: "Moscow", fleets: false, armies: true
-    },
-    { first: "Livonia", second: "Moscow", fleets: false, armies: true
-    },
-    { first: "St. Petersburg",
-        "Moscow", fleets: false, armies: true
-    },
-    { first: "Livonia", second: "St. Petersburg", fleets: false, armies: true
-    },
-    { first: "Moscow", second: "St. Petersburg", fleets: false, armies: true
-    },
-    { first: "Finland", second: "St. Petersburg", fleets: false, armies: true
-    },
-    { first: "Norway", second: "St. Petersburg", fleets: false, armies: true
-    },
-    { first: "St. Petersburg",
-        "Finland", fleets: false, armies: true
-    },
-    { first: "Sweden", second: "Finland", fleets: true, armies: true
-    },
-    { first: "Norway", second: "Finland", fleets: false, armies: true
-    },
-    { first: "Gulf of Bothnia", second: "Finland", fleets: true, armies: false
-    },
-    { first: "St. Petersburg (South Coast)",
-        "Finland", fleets: true, armies: false
-    },
-    { first: "Finland", second: "Sweden", fleets: true, armies: true
-    },
-    { first: "Norway", second: "Sweden", fleets: true, armies: true
-    },
-    { first: "Denmark", second: "Sweden", fleets: true, armies: true
-    },
-    { first: "Skagerrack", second: "Sweden", fleets: true, armies: false
-    },
-    { first: "Baltic Sea", second: "Sweden", fleets: true, armies: false
-    },
-    { first: "Gulf of Bothnia", second: "Sweden", fleets: true, armies: false
-    },
-    { first: "St. Petersburg",
-        "Norway", fleets: false, armies: true
-    },
-    { first: "Finland", second: "Norway", fleets: false, armies: true
-    },
-    { first: "Sweden", second: "Norway", fleets: true, armies: true
-    },
-    { first: "Barents Sea", second: "Norway", fleets: true, armies: false
-    },
-    { first: "Norwegian Sea", second: "Norway", fleets: true, armies: false
-    },
-    { first: "North Sea", second: "Norway", fleets: true, armies: false
-    },
-    { first: "Skagerrack", second: "Norway", fleets: true, armies: false
-    },
-    { first: "St. Petersburg (North Coast)",
-        "Norway", fleets: true, armies: false
-    },
-    { first: "Sweden", second: "Denmark", fleets: true, armies: true
-    },
-    { first: "Kiel", second: "Denmark", fleets: true, armies: true
-    },
-    { first: "North Sea", second: "Denmark", fleets: true, armies: false
-    },
-    { first: "Skagerrack", second: "Denmark", fleets: true, armies: false
-    },
-    { first: "Heligoland Bight", second: "Denmark", fleets: true, armies: false
-    },
-    { first: "Baltic Sea", second: "Denmark", fleets: true, armies: false
-    },
-    { first: "Denmark", second: "Kiel", fleets: true, armies: true
-    },
-    { first: "Berlin", second: "Kiel", fleets: true, armies: true
-    },
-    { first: "Munich", second: "Kiel", fleets: false, armies: true
-    },
-    { first: "Ruhr", second: "Kiel", fleets: false, armies: true
-    },
-    { first: "Holland", second: "Kiel", fleets: true, armies: true
-    },
-    { first: "Heligoland Bight", second: "Kiel", fleets: true, armies: false
-    },
-    { first: "Baltic Sea", second: "Kiel", fleets: true, armies: false
-    },
-    { first: "Kiel", second: "Berlin", fleets: true, armies: true
-    },
-    { first: "Prussia", second: "Berlin", fleets: true, armies: true
-    },
-    { first: "Silesia", second: "Berlin", fleets: false, armies: true
-    },
-    { first: "Munich", second: "Berlin", fleets: false, armies: true
-    },
-    { first: "Baltic Sea", second: "Berlin", fleets: true, armies: false
-    },
-    { first: "Warsaw", second: "Prussia", fleets: false, armies: true
-    },
-    { first: "Livonia", second: "Prussia", fleets: true, armies: true
-    },
-    { first: "Berlin", second: "Prussia", fleets: true, armies: true
-    },
-    { first: "Silesia", second: "Prussia", fleets: false, armies: true
-    },
-    { first: "Baltic Sea", second: "Prussia", fleets: true, armies: false
-    },
-    { first: "Warsaw", second: "Silesia", fleets: false, armies: true
-    },
-    { first: "Berlin", second: "Silesia", fleets: false, armies: true
-    },
-    { first: "Prussia", second: "Silesia", fleets: false, armies: true
-    },
-    { first: "Munich", second: "Silesia", fleets: false, armies: true
-    },
-    { first: "Bohemia", second: "Silesia", fleets: false, armies: true
-    },
-    { first: "Galicia", second: "Silesia", fleets: false, armies: true
-    },
-    { first: "Kiel", second: "Munich", fleets: false, armies: true
-    },
-    { first: "Berlin", second: "Munich", fleets: false, armies: true
-    },
-    { first: "Silesia", second: "Munich", fleets: false, armies: true
-    },
-    { first: "Ruhr", second: "Munich", fleets: false, armies: true
-    },
-    { first: "Burgundy", second: "Munich", fleets: false, armies: true
-    },
-    { first: "Tyrolia", second: "Munich", fleets: false, armies: true
-    },
-    { first: "Bohemia", second: "Munich", fleets: false, armies: true
-    },
-    { first: "Kiel", second: "Ruhr", fleets: false, armies: true
-    },
-    { first: "Munich", second: "Ruhr", fleets: false, armies: true
-    },
-    { first: "Holland", second: "Ruhr", fleets: false, armies: true
-    },
-    { first: "Belgium", second: "Ruhr", fleets: false, armies: true
-    },
-    { first: "Burgundy", second: "Ruhr", fleets: false, armies: true
-    },
-    { first: "Kiel", second: "Holland", fleets: true, armies: true
-    },
-    { first: "Ruhr", second: "Holland", fleets: false, armies: true
-    },
-    { first: "Belgium", second: "Holland", fleets: true, armies: true
-    },
-    { first: "North Sea", second: "Holland", fleets: true, armies: false
-    },
-    { first: "Heligoland Bight", second: "Holland", fleets: true, armies: false
-    },
-    { first: "Ruhr", second: "Belgium", fleets: false, armies: true
-    },
-    { first: "Holland", second: "Belgium", fleets: true, armies: true
-    },
-    { first: "Picardy", second: "Belgium", fleets: true, armies: true
-    },
-    { first: "Burgundy", second: "Belgium", fleets: false, armies: true
-    },
-    { first: "North Sea", second: "Belgium", fleets: true, armies: false
-    },
-    { first: "English Channel", second: "Belgium", fleets: true, armies: false
-    },
-    { first: "Belgium", second: "Picardy", fleets: true, armies: true
-    },
-    { first: "Brest", second: "Picardy", fleets: true, armies: true
-    },
-    { first: "Paris", second: "Picardy", fleets: false, armies: true
-    },
-    { first: "Burgundy", second: "Picardy", fleets: false, armies: true
-    },
-    { first: "English Channel", second: "Picardy", fleets: true, armies: false
-    },
-    { first: "Picardy", second: "Brest", fleets: true, armies: true
-    },
-    { first: "Paris", second: "Brest", fleets: false, armies: true
-    },
-    { first: "Gascony", second: "Brest", fleets: true, armies: true
-    },
-    { first: "English Channel", second: "Brest", fleets: true, armies: false
-    },
-    { first: "Mid-Atlantic Ocean", second: "Brest", fleets: true, armies: false
-    },
-    { first: "Picardy", second: "Paris", fleets: false, armies: true
-    },
-    { first: "Brest", second: "Paris", fleets: false, armies: true
-    },
-    { first: "Burgundy", second: "Paris", fleets: false, armies: true
-    },
-    { first: "Gascony", second: "Paris", fleets: false, armies: true
-    },
-    { first: "Munich", second: "Burgundy", fleets: false, armies: true
-    },
-    { first: "Ruhr", second: "Burgundy", fleets: false, armies: true
-    },
-    { first: "Belgium", second: "Burgundy", fleets: false, armies: true
-    },
-    { first: "Picardy", second: "Burgundy", fleets: false, armies: true
-    },
-    { first: "Paris", second: "Burgundy", fleets: false, armies: true
-    },
-    { first: "Marseilles", second: "Burgundy", fleets: false, armies: true
-    },
-    { first: "Gascony", second: "Burgundy", fleets: false, armies: true
-    },
-    { first: "Spain", second: "Marseilles", fleets: false, armies: true
-    },
-    { first: "Piedmont", second: "Marseilles", fleets: true, armies: true
-    },
-    { first: "Burgundy", second: "Marseilles", fleets: false, armies: true
-    },
-    { first: "Gascony", second: "Marseilles", fleets: false, armies: true
-    },
-    { first: "Gulf of Lyons", second: "Marseilles", fleets: true, armies: false
-    },
-    { first: "Spain (South Coast)",
-        "Marseilles", fleets: true, armies: false
-    },
-    { first: "Spain", second: "Gascony", fleets: false, armies: true
-    },
-    { first: "Brest", second: "Gascony", fleets: true, armies: true
-    },
-    { first: "Paris", second: "Gascony", fleets: false, armies: true
-    },
-    { first: "Burgundy", second: "Gascony", fleets: false, armies: true
-    },
-    { first: "Marseilles", second: "Gascony", fleets: false, armies: true
-    },
-    { first: "Mid-Atlantic Ocean", second: "Gascony", fleets: true, armies: false
-    },
-    { first: "Spain (North Coast)",
-        "Gascony", fleets: true, armies: false
-    },
-    { first: "Norway", second: "Barents Sea", fleets: true, armies: false
-    },
-    { first: "Norwegian Sea", second: "Barents Sea", fleets: true, armies: false
-    },
-    { first: "St. Petersburg (North Coast)",
-        "Barents Sea", fleets: true, armies: false
-    },
-    { first: "Clyde", second: "Norwegian Sea", fleets: true, armies: false
-    },
-    { first: "Edinburgh", second: "Norwegian Sea", fleets: true, armies: false
-    },
-    { first: "Norway", second: "Norwegian Sea", fleets: true, armies: false
-    },
-    { first: "Barents Sea", second: "Norwegian Sea", fleets: true, armies: false
-    },
-    { first: "North Sea", second: "Norwegian Sea", fleets: true, armies: false
-    },
-    { first: "North Atlantic Ocean", second: "Norwegian Sea", fleets: true, armies: false
-    },
-    { first: "Edinburgh", second: "North Sea", fleets: true, armies: false
-    },
-    { first: "Yorkshire", second: "North Sea", fleets: true, armies: false
-    },
-    { first: "London", second: "North Sea", fleets: true, armies: false
-    },
-    { first: "Norway", second: "North Sea", fleets: true, armies: false
-    },
-    { first: "Denmark", second: "North Sea", fleets: true, armies: false
-    },
-    { first: "Holland", second: "North Sea", fleets: true, armies: false
-    },
-    { first: "Belgium", second: "North Sea", fleets: true, armies: false
-    },
-    { first: "Norwegian Sea", second: "North Sea", fleets: true, armies: false
-    },
-    { first: "Skagerrack", second: "North Sea", fleets: true, armies: false
-    },
-    { first: "Heligoland Bight", second: "North Sea", fleets: true, armies: false
-    },
-    { first: "English Channel", second: "North Sea", fleets: true, armies: false
-    },
-    { first: "Sweden", second: "Skagerrack", fleets: true, armies: false
-    },
-    { first: "Norway", second: "Skagerrack", fleets: true, armies: false
-    },
-    { first: "Denmark", second: "Skagerrack", fleets: true, armies: false
-    },
-    { first: "North Sea", second: "Skagerrack", fleets: true, armies: false
-    },
-    { first: "Denmark", second: "Heligoland Bight", fleets: true, armies: false
-    },
-    { first: "Kiel", second: "Heligoland Bight", fleets: true, armies: false
-    },
-    { first: "Holland", second: "Heligoland Bight", fleets: true, armies: false
-    },
-    { first: "North Sea", second: "Heligoland Bight", fleets: true, armies: false
-    },
-    { first: "Livonia", second: "Baltic Sea", fleets: true, armies: false
-    },
-    { first: "Sweden", second: "Baltic Sea", fleets: true, armies: false
-    },
-    { first: "Denmark", second: "Baltic Sea", fleets: true, armies: false
-    },
-    { first: "Kiel", second: "Baltic Sea", fleets: true, armies: false
-    },
-    { first: "Berlin", second: "Baltic Sea", fleets: true, armies: false
-    },
-    { first: "Prussia", second: "Baltic Sea", fleets: true, armies: false
-    },
-    { first: "Gulf of Bothnia", second: "Baltic Sea", fleets: true, armies: false
-    },
-    { first: "Livonia", second: "Gulf of Bothnia", fleets: true, armies: false
-    },
-    { first: "Finland", second: "Gulf of Bothnia", fleets: true, armies: false
-    },
-    { first: "Sweden", second: "Gulf of Bothnia", fleets: true, armies: false
-    },
-    { first: "Baltic Sea", second: "Gulf of Bothnia", fleets: true, armies: false
-    },
-    { first: "St. Petersburg (South Coast)",
-        "Gulf of Bothnia", fleets: true, armies: false
-    },
-    { first: "Clyde", second: "North Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "Liverpool", second: "North Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "Norwegian Sea", second: "North Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "Irish Sea", second: "North Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "Mid-Atlantic Ocean", second: "North Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "Liverpool", second: "Irish Sea", fleets: true, armies: false
-    },
-    { first: "Wales", second: "Irish Sea", fleets: true, armies: false
-    },
-    { first: "North Atlantic Ocean", second: "Irish Sea", fleets: true, armies: false
-    },
-    { first: "English Channel", second: "Irish Sea", fleets: true, armies: false
-    },
-    { first: "Mid-Atlantic Ocean", second: "Irish Sea", fleets: true, armies: false
-    },
-    { first: "Wales", second: "English Channel", fleets: true, armies: false
-    },
-    { first: "London", second: "English Channel", fleets: true, armies: false
-    },
-    { first: "Belgium", second: "English Channel", fleets: true, armies: false
-    },
-    { first: "Picardy", second: "English Channel", fleets: true, armies: false
-    },
-    { first: "Brest", second: "English Channel", fleets: true, armies: false
-    },
-    { first: "North Sea", second: "English Channel", fleets: true, armies: false
-    },
-    { first: "Irish Sea", second: "English Channel", fleets: true, armies: false
-    },
-    { first: "Mid-Atlantic Ocean", second: "English Channel", fleets: true, armies: false
-    },
-    { first: "Portugal", second: "Mid-Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "North Africa", second: "Mid-Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "Brest", second: "Mid-Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "Gascony", second: "Mid-Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "North Atlantic Ocean", second: "Mid-Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "Irish Sea", second: "Mid-Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "English Channel", second: "Mid-Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "Western Mediterranean", second: "Mid-Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "Spain (North Coast)",
-        "Mid-Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "Spain (South Coast)",
-        "Mid-Atlantic Ocean", fleets: true, armies: false
-    },
-    { first: "North Africa", second: "Western Mediterranean", fleets: true, armies: false
-    },
-    { first: "Tunis", second: "Western Mediterranean", fleets: true, armies: false
-    },
-    { first: "Mid-Atlantic Ocean", second: "Western Mediterranean", fleets: true, armies: false
-    },
-    { first: "Gulf of Lyons", second: "Western Mediterranean", fleets: true, armies: false
-    },
-    { first: "Tyrrhenian Sea", second: "Western Mediterranean", fleets: true, armies: false
-    },
-    { first: "Spain (South Coast)",
-        "Western Mediterranean", fleets: true, armies: false
-    },
-    { first: "Tuscany", second: "Gulf of Lyons", fleets: true, armies: false
-    },
-    { first: "Piedmont", second: "Gulf of Lyons", fleets: true, armies: false
-    },
-    { first: "Marseilles", second: "Gulf of Lyons", fleets: true, armies: false
-    },
-    { first: "Western Mediterranean", second: "Gulf of Lyons", fleets: true, armies: false
-    },
-    { first: "Tyrrhenian Sea", second: "Gulf of Lyons", fleets: true, armies: false
-    },
-    { first: "Spain (South Coast)",
-        "Gulf of Lyons", fleets: true, armies: false
-    },
-    { first: "Tunis", second: "Tyrrhenian Sea", fleets: true, armies: false
-    },
-    { first: "Naples", second: "Tyrrhenian Sea", fleets: true, armies: false
-    },
-    { first: "Rome", second: "Tyrrhenian Sea", fleets: true, armies: false
-    },
-    { first: "Tuscany", second: "Tyrrhenian Sea", fleets: true, armies: false
-    },
-    { first: "Western Mediterranean", second: "Tyrrhenian Sea", fleets: true, armies: false
-    },
-    { first: "Gulf of Lyons", second: "Tyrrhenian Sea", fleets: true, armies: false
-    },
-    { first: "Ionian Sea", second: "Tyrrhenian Sea", fleets: true, armies: false
-    },
-    { first: "Tunis", second: "Ionian Sea", fleets: true, armies: false
-    },
-    { first: "Naples", second: "Ionian Sea", fleets: true, armies: false
-    },
-    { first: "Apulia", second: "Ionian Sea", fleets: true, armies: false
-    },
-    { first: "Greece", second: "Ionian Sea", fleets: true, armies: false
-    },
-    { first: "Albania", second: "Ionian Sea", fleets: true, armies: false
-    },
-    { first: "Tyrrhenian Sea", second: "Ionian Sea", fleets: true, armies: false
-    },
-    { first: "Adriatic Sea", second: "Ionian Sea", fleets: true, armies: false
-    },
-    { first: "Aegean Sea", second: "Ionian Sea", fleets: true, armies: false
-    },
-    { first: "Eastern Mediterranean", second: "Ionian Sea", fleets: true, armies: false
-    },
-    { first: "Venice", second: "Adriatic Sea", fleets: true, armies: false
-    },
-    { first: "Apulia", second: "Adriatic Sea", fleets: true, armies: false
-    },
-    { first: "Albania", second: "Adriatic Sea", fleets: true, armies: false
-    },
-    { first: "Ionian Sea", second: "Adriatic Sea", fleets: true, armies: false
-    },
-    { first: "Trieste", second: "Adriatic Sea", fleets: true, armies: false
-    },
-    { first: "Greece", second: "Aegean Sea", fleets: true, armies: false
-    },
-    { first: "Constantinople", second: "Aegean Sea", fleets: true, armies: false
-    },
-    { first: "Smyrna", second: "Aegean Sea", fleets: true, armies: false
-    },
-    { first: "Ionian Sea", second: "Aegean Sea", fleets: true, armies: false
-    },
-    { first: "Eastern Mediterranean", second: "Aegean Sea", fleets: true, armies: false
-    },
-    { first: "Bulgaria (South Coast)",
-        "Aegean Sea", fleets: true, armies: false
-    },
-    { first: "Smyrna", second: "Eastern Mediterranean", fleets: true, armies: false
-    },
-    { first: "Syria", second: "Eastern Mediterranean", fleets: true, armies: false
-    },
-    { first: "Ionian Sea", second: "Eastern Mediterranean", fleets: true, armies: false
-    },
-    { first: "Aegean Sea", second: "Eastern Mediterranean", fleets: true, armies: false
-    },
-    { first: "Rumania", second: "Black Sea", fleets: true, armies: false
-    },
-    { first: "Constantinople", second: "Black Sea", fleets: true, armies: false
-    },
-    { first: "Ankara", second: "Black Sea", fleets: true, armies: false
-    },
-    { first: "Armenia", second: "Black Sea", fleets: true, armies: false
-    },
-    { first: "Sevastopol", second: "Black Sea", fleets: true, armies: false
-    },
-    { first: "Bulgaria (North Coast)",
-        "Black Sea", fleets: true, armies: false
-    },
-    { first: "Piedmont", second: "Tyrolia", fleets: false, armies: true
-    },
-    { first: "Venice", second: "Tyrolia", fleets: false, armies: true
-    },
-    { first: "Munich", second: "Tyrolia", fleets: false, armies: true
-    },
-    { first: "Bohemia", second: "Tyrolia", fleets: false, armies: true
-    },
-    { first: "Vienna", second: "Tyrolia", fleets: false, armies: true
-    },
-    { first: "Trieste", second: "Tyrolia", fleets: false, armies: true
-    },
-    { first: "Silesia", second: "Bohemia", fleets: false, armies: true
-    },
-    { first: "Munich", second: "Bohemia", fleets: false, armies: true
-    },
-    { first: "Tyrolia", second: "Bohemia", fleets: false, armies: true
-    },
-    { first: "Vienna", second: "Bohemia", fleets: false, armies: true
-    },
-    { first: "Galicia", second: "Bohemia", fleets: false, armies: true
-    },
-    { first: "Tyrolia", second: "Vienna", fleets: false, armies: true
-    },
-    { first: "Bohemia", second: "Vienna", fleets: false, armies: true
-    },
-    { first: "Trieste", second: "Vienna", fleets: false, armies: true
-    },
-    { first: "Budapest", second: "Vienna", fleets: false, armies: true
-    },
-    { first: "Galicia", second: "Vienna", fleets: false, armies: true
-    },
-    { first: "Venice", second: "Trieste", fleets: true, armies: true
-    },
-    { first: "Albania", second: "Trieste", fleets: true, armies: true
-    },
-    { first: "Serbia", second: "Trieste", fleets: false, armies: true
-    },
-    { first: "Adriatic Sea", second: "Trieste", fleets: true, armies: false
-    },
-    { first: "Tyrolia", second: "Trieste", fleets: false, armies: true
-    },
-    { first: "Vienna", second: "Trieste", fleets: false, armies: true
-    },
-    { first: "Budapest", second: "Trieste", fleets: false, armies: true
-    },
-    { first: "Serbia", second: "Budapest", fleets: false, armies: true
-    },
-    { first: "Rumania", second: "Budapest", fleets: false, armies: true
-    },
-    { first: "Vienna", second: "Budapest", fleets: false, armies: true
-    },
-    { first: "Trieste", second: "Budapest", fleets: false, armies: true
-    },
-    { first: "Galicia", second: "Budapest", fleets: false, armies: true
-    },
-    { first: "Rumania", second: "Galicia", fleets: false, armies: true
-    },
-    { first: "Ukraine", second: "Galicia", fleets: false, armies: true
-    },
-    { first: "Warsaw", second: "Galicia", fleets: false, armies: true
-    },
-    { first: "Silesia", second: "Galicia", fleets: false, armies: true
-    },
-    { first: "Bohemia", second: "Galicia", fleets: false, armies: true
-    },
-    { first: "Vienna", second: "Galicia", fleets: false, armies: true
-    },
-    { first: "Budapest", second: "Galicia", fleets: false, armies: true
-    },
-    { first: "Portugal", second: "Spain (North Coast)", fleets: true, armies: false
-    },
-    { first: "Gascony", second: "Spain (North Coast)", fleets: true, armies: false
-    },
-    { first: "Mid-Atlantic Ocean", second: "Spain (North Coast)", fleets: true, armies: false
-    },
-    { first: "Portugal", second: "Spain (South Coast)", fleets: true, armies: false
-    },
-    { first: "Marseilles", second: "Spain (South Coast)", fleets: true, armies: false
-    },
-    { first: "Mid-Atlantic Ocean", second: "Spain (South Coast)", fleets: true, armies: false
-    },
-    { first: "Western Mediterranean", second: "Spain (South Coast)", fleets: true, armies: false
-    },
-    { first: "Gulf of Lyons", second: "Spain (South Coast)", fleets: true, armies: false
-    },
-    { first: "Norway", second: "St. Petersburg (North Coast)", fleets: true, armies: false
-    },
-    { first: "Barents Sea", second: "St. Petersburg (North Coast)", fleets: true, armies: false
-    },
-    { first: "Livonia", second: "St. Petersburg (South Coast)", fleets: true, armies: false
-    },
-    { first: "Finland", second: "St. Petersburg (South Coast)", fleets: true, armies: false
-    },
-    { first: "Gulf of Bothnia", second: "St. Petersburg (South Coast)", fleets: true, armies: false
-    },
-    { first: "Rumania", second: "Bulgaria (North Coast)", fleets: true, armies: false
-    },
-    { first: "Constantinople", second: "Bulgaria (North Coast)", fleets: true, armies: false
-    },
-    { first: "Black Sea", second: "Bulgaria (North Coast)", fleets: true, armies: false
-    },
-    { first: "Greece", second: "Bulgaria (South Coast)", fleets: true, armies: false
-    },
-    { first: "Constantinople", second: "Bulgaria (South Coast)", fleets: true, armies: false
-    },
-    { first: "Aegean Sea", second: "Bulgaria (South Coast)", fleets: true, armies: false
+    {
+        "first": "Edinburgh",
+        "second": "Clyde",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Liverpool",
+        "second": "Clyde",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Norwegian Sea",
+        "second": "Clyde",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Atlantic Ocean",
+        "second": "Clyde",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Clyde",
+        "second": "Edinburgh",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Liverpool",
+        "second": "Edinburgh",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Yorkshire",
+        "second": "Edinburgh",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Norwegian Sea",
+        "second": "Edinburgh",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Sea",
+        "second": "Edinburgh",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Clyde",
+        "second": "Liverpool",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Edinburgh",
+        "second": "Liverpool",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Yorkshire",
+        "second": "Liverpool",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Wales",
+        "second": "Liverpool",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "North Atlantic Ocean",
+        "second": "Liverpool",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Irish Sea",
+        "second": "Liverpool",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Edinburgh",
+        "second": "Yorkshire",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Liverpool",
+        "second": "Yorkshire",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Wales",
+        "second": "Yorkshire",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "London",
+        "second": "Yorkshire",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "North Sea",
+        "second": "Yorkshire",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Liverpool",
+        "second": "Wales",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Yorkshire",
+        "second": "Wales",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "London",
+        "second": "Wales",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Irish Sea",
+        "second": "Wales",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "English Channel",
+        "second": "Wales",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Yorkshire",
+        "second": "London",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Wales",
+        "second": "London",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "North Sea",
+        "second": "London",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "English Channel",
+        "second": "London",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Spain",
+        "second": "Portugal",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Mid-Atlantic Ocean",
+        "second": "Portugal",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Spain (North Coast)",
+        "second": "Portugal",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Spain (South Coast)",
+        "second": "Portugal",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Portugal",
+        "second": "Spain",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Marseilles",
+        "second": "Spain",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Gascony",
+        "second": "Spain",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Tunis",
+        "second": "North Africa",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Mid-Atlantic Ocean",
+        "second": "North Africa",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Western Mediterranean",
+        "second": "North Africa",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Africa",
+        "second": "Tunis",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Western Mediterranean",
+        "second": "Tunis",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tyrrhenian Sea",
+        "second": "Tunis",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Ionian Sea",
+        "second": "Tunis",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Rome",
+        "second": "Naples",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Apulia",
+        "second": "Naples",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Tyrrhenian Sea",
+        "second": "Naples",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Ionian Sea",
+        "second": "Naples",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Naples",
+        "second": "Rome",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Tuscany",
+        "second": "Rome",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Venice",
+        "second": "Rome",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Apulia",
+        "second": "Rome",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Tyrrhenian Sea",
+        "second": "Rome",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Rome",
+        "second": "Tuscany",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Piedmont",
+        "second": "Tuscany",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Venice",
+        "second": "Tuscany",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Gulf of Lyons",
+        "second": "Tuscany",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tyrrhenian Sea",
+        "second": "Tuscany",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tuscany",
+        "second": "Piedmont",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Venice",
+        "second": "Piedmont",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Marseilles",
+        "second": "Piedmont",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Gulf of Lyons",
+        "second": "Piedmont",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tyrolia",
+        "second": "Piedmont",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Rome",
+        "second": "Venice",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Tuscany",
+        "second": "Venice",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Piedmont",
+        "second": "Venice",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Apulia",
+        "second": "Venice",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Adriatic Sea",
+        "second": "Venice",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tyrolia",
+        "second": "Venice",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Trieste",
+        "second": "Venice",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Naples",
+        "second": "Apulia",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Rome",
+        "second": "Apulia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Venice",
+        "second": "Apulia",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Ionian Sea",
+        "second": "Apulia",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Adriatic Sea",
+        "second": "Apulia",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Albania",
+        "second": "Greece",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Serbia",
+        "second": "Greece",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Bulgaria",
+        "second": "Greece",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Ionian Sea",
+        "second": "Greece",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Aegean Sea",
+        "second": "Greece",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Bulgaria (South Coast)",
+        "second": "Greece",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Greece",
+        "second": "Albania",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Serbia",
+        "second": "Albania",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Ionian Sea",
+        "second": "Albania",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Adriatic Sea",
+        "second": "Albania",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Trieste",
+        "second": "Albania",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Greece",
+        "second": "Serbia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Albania",
+        "second": "Serbia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Bulgaria",
+        "second": "Serbia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Rumania",
+        "second": "Serbia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Trieste",
+        "second": "Serbia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Budapest",
+        "second": "Serbia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Greece",
+        "second": "Bulgaria",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Serbia",
+        "second": "Bulgaria",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Rumania",
+        "second": "Bulgaria",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Constantinople",
+        "second": "Bulgaria",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Serbia",
+        "second": "Rumania",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Bulgaria",
+        "second": "Rumania",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Sevastopol",
+        "second": "Rumania",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Ukraine",
+        "second": "Rumania",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Black Sea",
+        "second": "Rumania",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Budapest",
+        "second": "Rumania",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Galicia",
+        "second": "Rumania",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Bulgaria (North Coast)",
+        "second": "Rumania",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Bulgaria",
+        "second": "Constantinople",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Smyrna",
+        "second": "Constantinople",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Ankara",
+        "second": "Constantinople",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Aegean Sea",
+        "second": "Constantinople",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Black Sea",
+        "second": "Constantinople",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Bulgaria (North Coast)",
+        "second": "Constantinople",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Bulgaria (South Coast)",
+        "second": "Constantinople",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Constantinople",
+        "second": "Smyrna",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Ankara",
+        "second": "Smyrna",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Armenia",
+        "second": "Smyrna",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Syria",
+        "second": "Smyrna",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Aegean Sea",
+        "second": "Smyrna",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Eastern Mediterranean",
+        "second": "Smyrna",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Constantinople",
+        "second": "Ankara",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Smyrna",
+        "second": "Ankara",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Armenia",
+        "second": "Ankara",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Black Sea",
+        "second": "Ankara",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Smyrna",
+        "second": "Armenia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Ankara",
+        "second": "Armenia",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Syria",
+        "second": "Armenia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Sevastopol",
+        "second": "Armenia",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Black Sea",
+        "second": "Armenia",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Smyrna",
+        "second": "Syria",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Armenia",
+        "second": "Syria",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Eastern Mediterranean",
+        "second": "Syria",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Rumania",
+        "second": "Sevastopol",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Armenia",
+        "second": "Sevastopol",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Ukraine",
+        "second": "Sevastopol",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Moscow",
+        "second": "Sevastopol",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Black Sea",
+        "second": "Sevastopol",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Rumania",
+        "second": "Ukraine",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Sevastopol",
+        "second": "Ukraine",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Warsaw",
+        "second": "Ukraine",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Moscow",
+        "second": "Ukraine",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Galicia",
+        "second": "Ukraine",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Ukraine",
+        "second": "Warsaw",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Livonia",
+        "second": "Warsaw",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Moscow",
+        "second": "Warsaw",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Prussia",
+        "second": "Warsaw",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Silesia",
+        "second": "Warsaw",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Galicia",
+        "second": "Warsaw",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Warsaw",
+        "second": "Livonia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Moscow",
+        "second": "Livonia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "St. Petersburg",
+        "second": "Livonia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Prussia",
+        "second": "Livonia",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Baltic Sea",
+        "second": "Livonia",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Gulf of Bothnia",
+        "second": "Livonia",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "St. Petersburg (South Coast)",
+        "second": "Livonia",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Sevastopol",
+        "second": "Moscow",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Ukraine",
+        "second": "Moscow",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Warsaw",
+        "second": "Moscow",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Livonia",
+        "second": "Moscow",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "St. Petersburg",
+        "second": "Moscow",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Livonia",
+        "second": "St. Petersburg",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Moscow",
+        "second": "St. Petersburg",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Finland",
+        "second": "St. Petersburg",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Norway",
+        "second": "St. Petersburg",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "St. Petersburg",
+        "second": "Finland",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Sweden",
+        "second": "Finland",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Norway",
+        "second": "Finland",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Gulf of Bothnia",
+        "second": "Finland",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "St. Petersburg (South Coast)",
+        "second": "Finland",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Finland",
+        "second": "Sweden",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Norway",
+        "second": "Sweden",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Denmark",
+        "second": "Sweden",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Skagerrack",
+        "second": "Sweden",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Baltic Sea",
+        "second": "Sweden",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Gulf of Bothnia",
+        "second": "Sweden",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "St. Petersburg",
+        "second": "Norway",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Finland",
+        "second": "Norway",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Sweden",
+        "second": "Norway",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Barents Sea",
+        "second": "Norway",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Norwegian Sea",
+        "second": "Norway",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Sea",
+        "second": "Norway",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Skagerrack",
+        "second": "Norway",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "St. Petersburg (North Coast)",
+        "second": "Norway",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Sweden",
+        "second": "Denmark",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Kiel",
+        "second": "Denmark",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "North Sea",
+        "second": "Denmark",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Skagerrack",
+        "second": "Denmark",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Heligoland Bight",
+        "second": "Denmark",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Baltic Sea",
+        "second": "Denmark",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Denmark",
+        "second": "Kiel",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Berlin",
+        "second": "Kiel",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Munich",
+        "second": "Kiel",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Ruhr",
+        "second": "Kiel",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Holland",
+        "second": "Kiel",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Heligoland Bight",
+        "second": "Kiel",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Baltic Sea",
+        "second": "Kiel",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Kiel",
+        "second": "Berlin",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Prussia",
+        "second": "Berlin",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Silesia",
+        "second": "Berlin",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Munich",
+        "second": "Berlin",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Baltic Sea",
+        "second": "Berlin",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Warsaw",
+        "second": "Prussia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Livonia",
+        "second": "Prussia",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Berlin",
+        "second": "Prussia",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Silesia",
+        "second": "Prussia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Baltic Sea",
+        "second": "Prussia",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Warsaw",
+        "second": "Silesia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Berlin",
+        "second": "Silesia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Prussia",
+        "second": "Silesia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Munich",
+        "second": "Silesia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Bohemia",
+        "second": "Silesia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Galicia",
+        "second": "Silesia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Kiel",
+        "second": "Munich",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Berlin",
+        "second": "Munich",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Silesia",
+        "second": "Munich",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Ruhr",
+        "second": "Munich",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Burgundy",
+        "second": "Munich",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Tyrolia",
+        "second": "Munich",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Bohemia",
+        "second": "Munich",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Kiel",
+        "second": "Ruhr",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Munich",
+        "second": "Ruhr",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Holland",
+        "second": "Ruhr",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Belgium",
+        "second": "Ruhr",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Burgundy",
+        "second": "Ruhr",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Kiel",
+        "second": "Holland",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Ruhr",
+        "second": "Holland",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Belgium",
+        "second": "Holland",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "North Sea",
+        "second": "Holland",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Heligoland Bight",
+        "second": "Holland",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Ruhr",
+        "second": "Belgium",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Holland",
+        "second": "Belgium",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Picardy",
+        "second": "Belgium",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Burgundy",
+        "second": "Belgium",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "North Sea",
+        "second": "Belgium",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "English Channel",
+        "second": "Belgium",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Belgium",
+        "second": "Picardy",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Brest",
+        "second": "Picardy",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Paris",
+        "second": "Picardy",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Burgundy",
+        "second": "Picardy",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "English Channel",
+        "second": "Picardy",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Picardy",
+        "second": "Brest",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Paris",
+        "second": "Brest",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Gascony",
+        "second": "Brest",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "English Channel",
+        "second": "Brest",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Mid-Atlantic Ocean",
+        "second": "Brest",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Picardy",
+        "second": "Paris",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Brest",
+        "second": "Paris",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Burgundy",
+        "second": "Paris",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Gascony",
+        "second": "Paris",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Munich",
+        "second": "Burgundy",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Ruhr",
+        "second": "Burgundy",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Belgium",
+        "second": "Burgundy",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Picardy",
+        "second": "Burgundy",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Paris",
+        "second": "Burgundy",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Marseilles",
+        "second": "Burgundy",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Gascony",
+        "second": "Burgundy",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Spain",
+        "second": "Marseilles",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Piedmont",
+        "second": "Marseilles",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Burgundy",
+        "second": "Marseilles",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Gascony",
+        "second": "Marseilles",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Gulf of Lyons",
+        "second": "Marseilles",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Spain (South Coast)",
+        "second": "Marseilles",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Spain",
+        "second": "Gascony",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Brest",
+        "second": "Gascony",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Paris",
+        "second": "Gascony",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Burgundy",
+        "second": "Gascony",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Marseilles",
+        "second": "Gascony",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Mid-Atlantic Ocean",
+        "second": "Gascony",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Spain (North Coast)",
+        "second": "Gascony",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Norway",
+        "second": "Barents Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Norwegian Sea",
+        "second": "Barents Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "St. Petersburg (North Coast)",
+        "second": "Barents Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Clyde",
+        "second": "Norwegian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Edinburgh",
+        "second": "Norwegian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Norway",
+        "second": "Norwegian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Barents Sea",
+        "second": "Norwegian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Sea",
+        "second": "Norwegian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Atlantic Ocean",
+        "second": "Norwegian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Edinburgh",
+        "second": "North Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Yorkshire",
+        "second": "North Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "London",
+        "second": "North Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Norway",
+        "second": "North Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Denmark",
+        "second": "North Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Holland",
+        "second": "North Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Belgium",
+        "second": "North Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Norwegian Sea",
+        "second": "North Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Skagerrack",
+        "second": "North Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Heligoland Bight",
+        "second": "North Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "English Channel",
+        "second": "North Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Sweden",
+        "second": "Skagerrack",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Norway",
+        "second": "Skagerrack",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Denmark",
+        "second": "Skagerrack",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Sea",
+        "second": "Skagerrack",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Denmark",
+        "second": "Heligoland Bight",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Kiel",
+        "second": "Heligoland Bight",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Holland",
+        "second": "Heligoland Bight",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Sea",
+        "second": "Heligoland Bight",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Livonia",
+        "second": "Baltic Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Sweden",
+        "second": "Baltic Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Denmark",
+        "second": "Baltic Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Kiel",
+        "second": "Baltic Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Berlin",
+        "second": "Baltic Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Prussia",
+        "second": "Baltic Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Gulf of Bothnia",
+        "second": "Baltic Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Livonia",
+        "second": "Gulf of Bothnia",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Finland",
+        "second": "Gulf of Bothnia",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Sweden",
+        "second": "Gulf of Bothnia",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Baltic Sea",
+        "second": "Gulf of Bothnia",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "St. Petersburg (South Coast)",
+        "second": "Gulf of Bothnia",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Clyde",
+        "second": "North Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Liverpool",
+        "second": "North Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Norwegian Sea",
+        "second": "North Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Irish Sea",
+        "second": "North Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Mid-Atlantic Ocean",
+        "second": "North Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Liverpool",
+        "second": "Irish Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Wales",
+        "second": "Irish Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Atlantic Ocean",
+        "second": "Irish Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "English Channel",
+        "second": "Irish Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Mid-Atlantic Ocean",
+        "second": "Irish Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Wales",
+        "second": "English Channel",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "London",
+        "second": "English Channel",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Belgium",
+        "second": "English Channel",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Picardy",
+        "second": "English Channel",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Brest",
+        "second": "English Channel",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Sea",
+        "second": "English Channel",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Irish Sea",
+        "second": "English Channel",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Mid-Atlantic Ocean",
+        "second": "English Channel",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Portugal",
+        "second": "Mid-Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Africa",
+        "second": "Mid-Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Brest",
+        "second": "Mid-Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Gascony",
+        "second": "Mid-Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Atlantic Ocean",
+        "second": "Mid-Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Irish Sea",
+        "second": "Mid-Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "English Channel",
+        "second": "Mid-Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Western Mediterranean",
+        "second": "Mid-Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Spain (North Coast)",
+        "second": "Mid-Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Spain (South Coast)",
+        "second": "Mid-Atlantic Ocean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "North Africa",
+        "second": "Western Mediterranean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tunis",
+        "second": "Western Mediterranean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Mid-Atlantic Ocean",
+        "second": "Western Mediterranean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Gulf of Lyons",
+        "second": "Western Mediterranean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tyrrhenian Sea",
+        "second": "Western Mediterranean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Spain (South Coast)",
+        "second": "Western Mediterranean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tuscany",
+        "second": "Gulf of Lyons",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Piedmont",
+        "second": "Gulf of Lyons",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Marseilles",
+        "second": "Gulf of Lyons",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Western Mediterranean",
+        "second": "Gulf of Lyons",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tyrrhenian Sea",
+        "second": "Gulf of Lyons",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Spain (South Coast)",
+        "second": "Gulf of Lyons",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tunis",
+        "second": "Tyrrhenian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Naples",
+        "second": "Tyrrhenian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Rome",
+        "second": "Tyrrhenian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tuscany",
+        "second": "Tyrrhenian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Western Mediterranean",
+        "second": "Tyrrhenian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Gulf of Lyons",
+        "second": "Tyrrhenian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Ionian Sea",
+        "second": "Tyrrhenian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tunis",
+        "second": "Ionian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Naples",
+        "second": "Ionian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Apulia",
+        "second": "Ionian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Greece",
+        "second": "Ionian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Albania",
+        "second": "Ionian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tyrrhenian Sea",
+        "second": "Ionian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Adriatic Sea",
+        "second": "Ionian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Aegean Sea",
+        "second": "Ionian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Eastern Mediterranean",
+        "second": "Ionian Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Venice",
+        "second": "Adriatic Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Apulia",
+        "second": "Adriatic Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Albania",
+        "second": "Adriatic Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Ionian Sea",
+        "second": "Adriatic Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Trieste",
+        "second": "Adriatic Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Greece",
+        "second": "Aegean Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Constantinople",
+        "second": "Aegean Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Smyrna",
+        "second": "Aegean Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Ionian Sea",
+        "second": "Aegean Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Eastern Mediterranean",
+        "second": "Aegean Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Bulgaria (South Coast)",
+        "second": "Aegean Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Smyrna",
+        "second": "Eastern Mediterranean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Syria",
+        "second": "Eastern Mediterranean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Ionian Sea",
+        "second": "Eastern Mediterranean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Aegean Sea",
+        "second": "Eastern Mediterranean",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Rumania",
+        "second": "Black Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Constantinople",
+        "second": "Black Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Ankara",
+        "second": "Black Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Armenia",
+        "second": "Black Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Sevastopol",
+        "second": "Black Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Bulgaria (North Coast)",
+        "second": "Black Sea",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Piedmont",
+        "second": "Tyrolia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Venice",
+        "second": "Tyrolia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Munich",
+        "second": "Tyrolia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Bohemia",
+        "second": "Tyrolia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Vienna",
+        "second": "Tyrolia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Trieste",
+        "second": "Tyrolia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Silesia",
+        "second": "Bohemia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Munich",
+        "second": "Bohemia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Tyrolia",
+        "second": "Bohemia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Vienna",
+        "second": "Bohemia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Galicia",
+        "second": "Bohemia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Tyrolia",
+        "second": "Vienna",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Bohemia",
+        "second": "Vienna",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Trieste",
+        "second": "Vienna",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Budapest",
+        "second": "Vienna",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Galicia",
+        "second": "Vienna",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Venice",
+        "second": "Trieste",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Albania",
+        "second": "Trieste",
+        "fleets": true,
+        "armies": true
+    },
+    {
+        "first": "Serbia",
+        "second": "Trieste",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Adriatic Sea",
+        "second": "Trieste",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Tyrolia",
+        "second": "Trieste",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Vienna",
+        "second": "Trieste",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Budapest",
+        "second": "Trieste",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Serbia",
+        "second": "Budapest",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Rumania",
+        "second": "Budapest",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Vienna",
+        "second": "Budapest",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Trieste",
+        "second": "Budapest",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Galicia",
+        "second": "Budapest",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Rumania",
+        "second": "Galicia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Ukraine",
+        "second": "Galicia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Warsaw",
+        "second": "Galicia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Silesia",
+        "second": "Galicia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Bohemia",
+        "second": "Galicia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Vienna",
+        "second": "Galicia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Budapest",
+        "second": "Galicia",
+        "fleets": false,
+        "armies": true
+    },
+    {
+        "first": "Portugal",
+        "second": "Spain (North Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Gascony",
+        "second": "Spain (North Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Mid-Atlantic Ocean",
+        "second": "Spain (North Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Portugal",
+        "second": "Spain (South Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Marseilles",
+        "second": "Spain (South Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Mid-Atlantic Ocean",
+        "second": "Spain (South Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Western Mediterranean",
+        "second": "Spain (South Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Gulf of Lyons",
+        "second": "Spain (South Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Norway",
+        "second": "St. Petersburg (North Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Barents Sea",
+        "second": "St. Petersburg (North Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Livonia",
+        "second": "St. Petersburg (South Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Finland",
+        "second": "St. Petersburg (South Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Gulf of Bothnia",
+        "second": "St. Petersburg (South Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Rumania",
+        "second": "Bulgaria (North Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Constantinople",
+        "second": "Bulgaria (North Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Black Sea",
+        "second": "Bulgaria (North Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Greece",
+        "second": "Bulgaria (South Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Constantinople",
+        "second": "Bulgaria (South Coast)",
+        "fleets": true,
+        "armies": false
+    },
+    {
+        "first": "Aegean Sea",
+        "second": "Bulgaria (South Coast)",
+        "fleets": true,
+        "armies": false
     }
 ]
