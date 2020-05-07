@@ -1,25 +1,26 @@
-// 'use strict';
-// import { Sequelize } from 'sequelize';
-// import Game from './models/game';
+// import config from 'config';
+import { OQB } from 'oqb';
+import config from '../config';
+import models from './models/';
 
-// const env = process.env.NODE_ENV || 'development';
-// // const config = require(__dirname + '/../config/sequelize.js');
+const connection = config.database;
 
-// import Config from '../config.js';
-// const config = (Config as any)[env];
+const orm = new OQB({
+    client: 'mysql',
+    debug: true,
+    connection: {
+        host: connection.host,
+        user: connection.username,
+        password: connection.password,
+        database: connection.database
+    }
+});
+models(orm);
+orm.associateAllModels();
 
-// const sequelize = new Sequelize(config.database, config.username, config.password, config);
+async function destroyConnection() {
+    await orm.knex.destroy();
+}
 
-// const db = {
-//     models: {
-//         game: Game
-//     },
-//     sequelize: sequelize
-// };
-
-// Object.values(db.models).forEach((model) => {
-//     model.associate();
-//     model.initialize(sequelize);
-// });
-
-// export default db;
+export { destroyConnection };
+export default orm;

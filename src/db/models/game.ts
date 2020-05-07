@@ -3,7 +3,15 @@ import { Model, OQB, DataType } from 'oqb';
 
 export class Game extends Model {
     // eslint-disable-next-line @typescript-eslint/no-empty-function
-    public static assocate(): void {}
+    public static associate(): void {
+        Game.belongsToMany({
+            to: this.oqb.models.user,
+            toKey: 'player',
+            through: this.oqb.models.game_has_player,
+            fromKey: 'game_id',
+            as: 'players'
+        });
+    }
 }
 
 export default function init(oqb: OQB): void {

@@ -8,7 +8,7 @@ const config: any = {
             password: process.env.DB_PASSWORD,
             database: process.env.DB_DATABASE,
             host: '127.0.0.1',
-            dialect: 'mysql'
+            client: 'mysql'
         }
     },
     test: {
@@ -17,7 +17,7 @@ const config: any = {
             password: 'tbd',
             database: 'database_test',
             host: '127.0.0.1',
-            dialect: 'mysql'
+            client: 'mysql'
         }
     },
     production: {
@@ -26,7 +26,7 @@ const config: any = {
             password: 'tbd',
             database: 'database_production',
             host: '127.0.0.1',
-            dialect: 'mysql'
+            client: 'mysql'
         }
     }
 };
