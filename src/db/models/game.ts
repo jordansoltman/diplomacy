@@ -9,7 +9,7 @@ export class Game extends Model {
             toKey: 'player',
             through: this.oqb.models.game_has_player,
             fromKey: 'game_id',
-            as: 'players'
+            as: 'game_players'
         });
     }
 }
