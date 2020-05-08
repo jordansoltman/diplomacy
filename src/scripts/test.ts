@@ -25,10 +25,12 @@ import db from '../db';
     //         game_id: 2
     //     }
     // ]);
-    // const users = await db.models.game.findAll({
-    //     log: true,
-    //     include: 'game_players'
-    // });
+    const users = await db.models.game.findAll({
+        log: true,
+        include: {
+            association: 'game_players'
+        }
+    });
 
     // await db.models.game_turn.insert([
     //     {
