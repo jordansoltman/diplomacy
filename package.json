@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "migrate": "tsc && node dist/scripts/migrate"
+    "migrate": "tsc && node dist/scripts/migrate",
+    "resetdb": "tsc && node dist/scripts/resetdb"
+
   },
   "dependencies": {
     "@types/bluebird": "^3.5.30",

@@ -11,6 +11,12 @@ export class Game extends Model {
             fromKey: 'game_id',
             as: 'game_players'
         });
+
+        Game.hasMany({
+            to: this.oqb.models.game_turn,
+            as: 'turns', //the alias that is used when making queries.
+            foreignKey: 'game_id' //what is the key of the table we want to reference?
+        });
     }
 }
 

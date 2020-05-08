@@ -9,12 +9,12 @@ import db from '../db';
     //     win_condition: 18,
     //     num_players: 7
     // });
-    await db.models.user.insert([
-        // { username: 'tylersayvetz', password: 'roadrat', email: 'tylersayvetz@gmail.com' },
-        // { username: 'jordansoltman', password: '1247133812', email: 'me@jordansoltman.com' },
-        // { username: 'pete', password: '1247133812', email: 'pete@pete.com' },
-        // { username: 'mete', password: '1247133812', email: 'pete@mete.com' }
-    ]);
+    // await db.models.user.insert([
+    //     { username: 'tylersayvetz', password: 'roadrat', email: 'tylersayvetz@gmail.com' },
+    //     { username: 'jordansoltman', password: '1247133812', email: 'me@jordansoltman.com' },
+    //     { username: 'pete', password: '1247133812', email: 'pete@pete.com' },
+    //     { username: 'mete', password: '1247133812', email: 'pete@mete.com' }
+    // ]);
     // await db.models.game_has_player.insert([
     //     {
     //         player: 'tylersayvetz',
@@ -25,10 +25,23 @@ import db from '../db';
     //         game_id: 2
     //     }
     // ]);
-    const users = await db.models.game.findAll({
-        log: true,
-        include: 'game_players'
-    });
+    // const users = await db.models.game.findAll({
+    //     log: true,
+    //     include: 'game_players'
+    // });
 
-    console.log(JSON.stringify(users));
+    // await db.models.game_turn.insert([
+    //     {
+    //         game_id: 1,
+    //         turn_number: 1
+    //     },
+    //     {
+    //         game_id: 1,
+    //         turn_number: 2
+    //     },
+    //     {
+    //         game_id: 1,
+    //         turn_number: 3
+    //     }
+    // ]);
 })();

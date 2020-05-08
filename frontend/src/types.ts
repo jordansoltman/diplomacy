@@ -4,7 +4,7 @@
 export enum GameTurnState {
     NO_ORDERS,
     SAVED,
-    COMMITTED
+    READY
 }
 
 /**

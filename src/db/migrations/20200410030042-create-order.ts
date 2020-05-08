@@ -9,6 +9,8 @@ exports.up = function (knex: Knex): Promise<void> {
         table.string('territory').notNullable();
         table.string('territory_secondary');
         table.string('territory_tertiary');
+        table.string('convoy');
+        table.string('unit');
         table
             .foreign(['game_id', 'player', 'turn_number'], 'fk_order-game_turn_has_player')
             .references(['game_id', 'player', 'turn_number'])

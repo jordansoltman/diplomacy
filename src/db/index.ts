@@ -7,7 +7,7 @@ const connection = config.database;
 
 const orm = new OQB({
     client: 'mysql',
-    debug: true,
+    debug: false,
     connection: {
         host: connection.host,
         user: connection.username,
